@@ -1,0 +1,58 @@
+body {
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 50px;
+
+}
+
+.sidenav a {
+  padding: 60px 10px 30px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #111;
+}
+
+.main {
+  margin-left: 220px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  margin-top: 80px;
+  padding: 30px 50px 365px 50px; 
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+}
+
+.main p {
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+}
+
+.main a {
+  font-size: 17px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

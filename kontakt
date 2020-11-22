@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="Mangold Formgebung" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="bild.html">Bilder</a>
+  <a href="kontakt.html">Kontakt</a>
+  <a href="index.html">Startseite</a>
+</div>
+
+<div class="main" style="background-image: images/Logos/Mario_Mangold_ohne_Logo.jpg; background-repeat: no-repeat; background-size: 100%;">
+ <p>Mario Mangold</p>
+ <p>Sicke Street 13</p>
+ <p>555 Leipzig</p>
+ <p> info@mangold-formgebung.de</p>
+</div>
+   
+</body>
+</html> 
